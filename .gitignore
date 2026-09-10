@@ -1,0 +1,39 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE and editor-specific settings
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+
+# Generated predictions, logs, and trained model checkpoints
+test-blind.output.txt
+*.log
+*.pt
+*.pth
+*.ckpt
+
+# Pretrained GloVe vectors are large and can be downloaded separately
+data/glove*.txt
