@@ -36,4 +36,7 @@ test-blind.output.txt
 *.ckpt
 
 # Pretrained GloVe vectors are large and can be downloaded separately
-data/glove*.txt
+**/data/glove*.txt
+
+# Course handouts kept locally outside the submitted code folders
+/CSE_5525__Assignment_1__SP_2026_.pdf
